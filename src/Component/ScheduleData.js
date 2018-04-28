@@ -20,7 +20,7 @@ class ScheduleData extends React.Component {
   handleClick(e, date, timeSlice) {
     this.props.onClick(date);
     
-    console.log("Cell value",e.innerText);
+    //console.log("Cell value",e.innerText);
     const eventName= prompt('Enter your event here...')
     const newEventDetails={
       activity:eventName,
@@ -34,7 +34,7 @@ class ScheduleData extends React.Component {
       todos:[...todosComplete,todosComplete.unshift(newEventDetails)],
       showButton:'visible'
     })
-  console.log("list of events are ", this.state.todos);
+  //console.log("list of events are ", this.state.todos);
   }
 
   render() {
