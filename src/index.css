@@ -176,58 +176,6 @@ h2 {
   color: #bbb;
 }
 
-/*===CalendarDay===*/
-
-.CalendarDay {
-  margin: 0;
-  padding: 0;
-  margin-top: 16px;
-  width: 810px;
-}
-
-.table-calendar-day {
-  margin-top: 16px;
-}
-
-.table-calendar-day tr:nth-child(odd) {
-  background: #EFEFEF;
-}
-
-.day-schedule-todos-container {
-  width: 100%;
-  margin-top: 16px;
-}
-
-.day-schedule-todos-row {
-  display: flex;
-  align-content: space-around;
-  align-items: center;
-}
-
-.day-schedule-time-slice {
-  font-size: 12px;
-  font-weight: bold;
-  text-align: right;
-  margin-right: 10px;
-  min-width: 50px;
-}
-
-.day-schedule-todo {
-  margin: 1px;
-  flex-grow: 1;
-  min-height: 20px;
-  border: 1px solid #ddd;
-  height: 14px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 20px;
-  font-size: 12px;
-  cursor: pointer;
-}
-
 /*===CalendarWeek===*/
 
 .CalendarWeek {
@@ -274,19 +222,6 @@ h2 {
 
 .schedule-activity.current-day {
   background: #eff;
-}
-
-/*===CalendarMonth===*/
-
-.CalendarMonth {
-  margin-top: 16px;
-}
-
-.calendar-month-current-day {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  border: 3px solid var(--color-softblue);
 }
 
 .calendar-day {
